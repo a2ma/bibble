@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bibble</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 1. Load Libraries -->
+    <!-- Next line: ensure ES6 works for ES5 browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <!-- Angular needs next line for bindings to work -->
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <!-- TypeScript @() decorators need this: -->
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <!-- module/path finder adressed: -->
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err){ console.error(err); });
+    </script>
+</head>
+<!-- 3. Display App -->
+<body>
+    <app-main>Loading...</app-main>
+</body>
+</html>
