@@ -1,0 +1,27 @@
+.input-group-text {
+    color: white;
+}
+
+.form-group h2, .form-group select {
+    display: inline;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#login-forms {
+    margin: auto;
+}
+
+#bottom-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding: 40vh 0vw !important;
+    }
+}

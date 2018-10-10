@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Libre - your catalog</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark" style="background-image: url(https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
+            <a class="navbar-brand" style="color: white" href="#">Libre</a>
+            <form class="form-inline navbar-right" id="login-forms">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Username</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Username</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                </div>
+                <button type="submit" class="btn btn-default sign-in-btn">Log In</button>
+            </form>
+        </nav>
+
+        <div class="jumbotron">
+            <div class="col-md-12">
+                <div class="form-group form-inline">
+                    <h2>I would like to add a </h2>
+                    <select class="form-control input-lg">
+                        <option value="book">Book</option>
+                        <option value="movie">Movie</option>
+                        <option value="song">Song</option>
+                    </select>
+                    <span class="btn btn-lg" href="#" role="button">➜</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-dark fixed-bottom" id="bottom-navbar" style="background-image: url(https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)">
+            <button class="btn btn-outline-success btn-lg" type="button"><a href="library.html">Library</a></button>
+        </nav>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
