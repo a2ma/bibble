@@ -4,7 +4,6 @@
   "description": "A way to organize your library.",
   "main": "main.js",
   "dependencies": {
-    "tastytracker-demo-pkg": "^1.0.3",
     "@angular/common": "2.x",
     "@angular/compiler": "2.x",
     "@angular/core": "2.x",
@@ -17,13 +16,14 @@
     "moment": ">=2.13.0",
     "reflect-metadata": ">=0.1.3",
     "rxjs": "5.0.0-beta.12",
-    "systemjs": ">=0.19.27",
+    "systemjs": "^2.0.2",
+    "tastytracker-demo-pkg": "^1.0.3",
     "zone.js": ">=0.6.17"
   },
   "devDependencies": {
     "concurrently": ">=2.2.0",
     "lite-server": ">=2.2.2",
-    "typescript": ">=2.0.2",
+    "typescript": "^3.1.2",
     "typings": ">=1.3.2"
   },
   "scripts": {
